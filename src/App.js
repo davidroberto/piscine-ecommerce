@@ -1,5 +1,8 @@
+import CheapestProducts from "./CheapestProducts";
+import ElectroMenagerProducts from "./ElectroMenagerProducts";
 import Footer from "./Footer";
 import Header from "./Header";
+import InformatiqueProducts from "./InformatiqueProducts";
 import LastProducts from "./LastProducts";
 
 function App() {
@@ -7,6 +10,9 @@ function App() {
     <>
       <Header />
       <LastProducts />
+      <ElectroMenagerProducts />
+      <CheapestProducts />
+      <InformatiqueProducts />
       <Footer />
     </>
   );
